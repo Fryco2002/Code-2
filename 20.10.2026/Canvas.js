@@ -5,6 +5,7 @@ function hndLoad(_event) {
     const canvas = document.querySelector("canvas");
     crc2 = canvas.getContext("2d");
     crc2.globalAlpha = 0.5;
+    crc2.fillStyle = "#de8a8a";
     crc2.beginPath();
     for (let i = 0; i < 10; i++) {
         drawTriangle(Math.random() * 1920, Math.random() * 1080, Math.random() * 1920, Math.random() * 1080, Math.random() * 1920, Math.random() * 1080);

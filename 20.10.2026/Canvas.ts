@@ -6,6 +6,7 @@ function hndLoad(_event: Event): void {
     crc2 = canvas.getContext("2d")!;
 
     crc2.globalAlpha = 0.5
+    crc2.fillStyle = "#de8a8a"
 
     crc2.beginPath();
     for (let i:number = 0; i < 10; i++) {
