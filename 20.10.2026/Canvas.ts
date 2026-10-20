@@ -58,9 +58,6 @@ function drawLine(_startx:number, _starty:number, _points:number): void {
     }
 }
 
-
-
-
 function randomStroke(_strokeColor:number): void {
     crc2.lineWidth = Math.random() * 15;
     if (_strokeColor == 1) {
