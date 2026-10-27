@@ -12,7 +12,7 @@ namespace OldMacDonaldsFarmHeritage {
     function handleLoad(): void {
         //Crate the animals
         let newCow: Animal = new Cow("berta the cow", "grass", "muuh");
-        let newChick: Animal = new Chicken("hans the chicken", "corn", "book");
+        let newChick: Animal = new Chicken("hans the chicken", "corn", "gack-gack");
         let newDog: Animal = new Dog("Pluto the dog", "meat", "bark");
         let newHorse: Animal = new Horse("Gustav the horse", "hay", "wiihr");
         stall.push(newCow, newChick, newDog, newHorse);

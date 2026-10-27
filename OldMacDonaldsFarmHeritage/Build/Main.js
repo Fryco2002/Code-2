@@ -12,7 +12,7 @@ var OldMacDonaldsFarmHeritage;
     function handleLoad() {
         //Crate the animals
         let newCow = new OldMacDonaldsFarmHeritage.Cow("berta the cow", "grass", "muuh");
-        let newChick = new OldMacDonaldsFarmHeritage.Chicken("hans the chicken", "corn", "book");
+        let newChick = new OldMacDonaldsFarmHeritage.Chicken("hans the chicken", "corn", "gack-gack");
         let newDog = new OldMacDonaldsFarmHeritage.Dog("Pluto the dog", "meat", "bark");
         let newHorse = new OldMacDonaldsFarmHeritage.Horse("Gustav the horse", "hay", "wiihr");
         OldMacDonaldsFarmHeritage.stall.push(newCow, newChick, newDog, newHorse);
