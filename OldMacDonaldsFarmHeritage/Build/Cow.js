@@ -3,7 +3,7 @@ var OldMacDonaldsFarmHeritage;
 (function (OldMacDonaldsFarmHeritage) {
     class Cow extends OldMacDonaldsFarmHeritage.Animal {
         doSpecialAction() {
-            console.log("give milk");
+            console.log(this.name, "gives milk");
         }
     }
     OldMacDonaldsFarmHeritage.Cow = Cow;

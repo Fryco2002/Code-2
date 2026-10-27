@@ -2,19 +2,21 @@
 var OldMacDonaldsFarmHeritage;
 (function (OldMacDonaldsFarmHeritage) {
     class Animal {
-        name = "";
-        foodType = "";
-        voice = "";
+        name;
+        foodType;
+        voice;
         constructor(_name, _foodType, _voice) {
             this.name = _name;
             this.foodType = _foodType;
             this.voice = _voice;
         }
         sing() {
-            console.log("animal is singing");
+            console.log(this.name, "sings: Old MacDonalds had a farm", this.voice, "E-I-E-I-O");
         }
         eat() {
-            console.log("animal is eating");
+            let randomAmount = Math.floor(Math.random() * 3) + 1;
+            OldMacDonaldsFarmHeritage.foodStash[this.foodType] -= randomAmount;
+            console.log(this.name, "is eating", randomAmount, ":", this.foodType);
         }
         doSpecialAction() {
             console.log("animal does its special action");
